@@ -6,6 +6,8 @@ import HighchartsReact from 'highcharts-react-official'
 import  Button  from '@mui/material/Button';
 import { withStyles } from '@mui/material';
 
+import Search from "./Search";
+
 class Widget extends React.Component {
   constructor(props) {
     super(props);
@@ -58,8 +60,8 @@ class Widget extends React.Component {
 
     return(
       <div>
-        <Button onClick = { this.changeTitle }>Mudar título</Button>
-        <Button onClick = { this.addItem }>Adicionar valor</Button>
+        <Button  onClick = { this.changeTitle }>Mudar título</Button>
+        <Button  onClick = { this.addItem }>Adicionar valor</Button>
 
         <HighchartsReact
           highcharts={Highcharts}

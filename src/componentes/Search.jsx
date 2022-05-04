@@ -9,12 +9,12 @@ export default function BasicTextFields() {
   return (
     <div>
        <a href="" rel="noreferrer" target="_blank" >
-              <img src={delfos_logo} alt="delfos_logo" className="logo" style= {{width: "100px", heigth: "100px", marginTop: "20px" }} />
+              <img src={delfos_logo} alt="delfos_logo" className="logo" style= {{width: "100px", heigth: "100px", marginTop: "20px", marginBottom: "50px" }} />
             </a>
     <Box
       component="form"
       sx={{
-        '& > :not(style)': { m: 1, width: '35ch', marginLeft: "77rem", marginTop: "-30px" },
+        '& > :not(style)': { m: 1, width: '35ch', marginLeft: "77rem", marginTop: "-90px" },
       }}
       noValidate
       autoComplete="off"
